@@ -1,0 +1,6 @@
+*.vdl.go
+*~
+
+# directories
+bin/**
+cred/**
