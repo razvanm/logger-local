@@ -4,14 +4,14 @@ This is small demo client/server for Syncbase. It assumes a proper Vanadium
 environment ([instructions](https://vanadium.github.io/installation/))
 and the `v23:syncbase` profile installed (`jiri profile install v23:syncbase`).
 
-# Setup
+## Setup
 
 The setup includes two `syncbased` servers (one for the server and one for the
 client) that publish their address to a local `mountabled` server. The server
 program connects to their dedicated `syncbased` server. A setup program creates
 the databases, the collections and the _syncgroup_ used to synchronize the two.
 
-# How to run demo
+## How to run demo
 
 Build the binaries, the certs:
 
